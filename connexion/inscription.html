@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+		<link rel="stylesheet" href="connexion.css">
+		<meta charset="UTF-8">
+		<title>Connexion</title>
+	</head>
+	<header>
+		<div id="navbar">
+			<ul>
+				<li><a href="connexion.html">Connexion</a></li>
+				<li><a href="inscription.html">Inscription</a></li>
+				<li><a href="motdepasse.html">Mot de passe oublié</a></li>
+			</ul>
+		</div>
+	</header>
+	<body>
+		<div id="form">	
+			<form>
+				<table>
+					<tr>
+						<td>Login :</td>
+						<td><input required type="text" name="login" maxlength="15" placeholder="Login"></input></td>
+					</tr>
+					<tr>
+						<td>Mot de passe :</td>
+						<td><input required type="password" name="mdp" maxlength="15" placeholder="Mot de passe"></input></td>
+					</tr>
+					<tr>
+						<td>Confirmer le mot de passe :</td>
+						<td><input required type="password" name="confimermdp" maxlength="15" placeholder="Confirmer le mot de passe"></input></td>
+					</tr>
+					<tr>
+						<td>Date de naissance</td>
+						<td><input required type="date" name="datenaissance"></input></td>
+					</tr>
+					<tr>
+						<td>Nom</td>
+						<td><input required type="text" name="nom" maxlength="15" placeholder="Nom"></input></td>
+					</tr>
+					<tr>
+						<td>Prénom</td>
+						<td><input required type="text" name="prenom" maxlength="15" placeholder="Prénom"></input></td>
+					</tr>
+					<tr>
+						<td>Adresse e-mail</td>
+						<td><input required type="email" name="email" maxlength="15" placeholder="Adresse e-mail"></input></td>
+					</tr>
+					<tr>
+						<td>Sexe</td>
+						<td><input class="radio" type="radio" name="homme">Femme</input><input class="radio" type="radio" name="femme">Homme</input></td>
+					</tr>
+					<tr>
+						<td>Niveau d'étude</td>
+						<td><select required name="hobbie">
+								<option>Choisir<option>
+								<option>Aucun</option>
+								<option>Brevet</option>
+								<option>Bac Général</option>
+								<option>Bac Pro</option>
+								<option>Licence</option>
+								<option>Master</option>
+								<option>Doctorat</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Téléphone</td>
+						<td><input required type="tel" name="telephone" maxlength="10" placeholder="Ex : 0612345678"></input></td>
+					</tr>
+					<tr>
+						<td>Hobbie</td>
+						<td>
+							<select required name="hobbie">
+								<option>Choisir<option>
+								<option>Natation</option>
+								<option>Informatique</option>
+								<option>Peinture</option>
+								<option>Moto</option>
+								<option>Jeux vidéos</option>
+							</select>
+						</td>
+					</tr>	
+				</table>
+				<div class="submit">
+					<input type="submit" value="S'inscrire"></input>
+				</div>
+			</form>
+		</div>
+		<div class="img_rejoins">
+			<img src="rejoins.png" alt="Rejoins-nous !">
+		</div>
+	</body>
+	<footer>
+		<div id="last_content">	
+			<div class="network">
+				<a href="https://www.facebook.com/"><img src="facebook.png" alt="Logo Facebook"></a>
+				<a href="https://www.instagram.com/"><img src="instagram.png" alt="Logo Facebook"></a>
+				<a href="https://www.twitter.com/"><img src="twitter.png" alt="Logo Facebook"></a>
+			</div>
+			<div class="link">
+				<ul>
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#">Connexion</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</html>

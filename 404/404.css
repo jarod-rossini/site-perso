@@ -1,0 +1,124 @@
+body{
+	padding: none;
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: police1;
+}
+
+@font-face{
+	font-family: police1;
+	src: url('polices/police1.otf');
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: white;
+}
+
+#navbar a{
+	color: black;
+	text-decoration: none;
+}
+
+#navbar a:hover{
+	color: gray;
+}
+
+#first_of_all{
+	text-align: center;
+	margin-top: 1%;
+}
+
+.middle_content{
+	margin: 0 auto;
+	width: 20%;
+	height: 20%;
+	border-radius: 10px;
+	border: solid 2px black;
+	box-shadow: 10px 10px 10px black;
+	padding: 1%;
+}
+.middle_content:hover{
+	padding: 3%;
+	transition: 1s;
+	background-color: red;
+	
+}
+.middle_content:hover .redirect{
+	opacity: 0;
+	transition: 1s;
+}
+.middle_content:hover .diable img{
+	transition: 2s;
+	opacity: 1;
+}
+.middle_content:hover h3{
+	transition: 1s;
+	opacity: 0;
+}
+.middle_content:hover .go_away{
+	opacity: 1;
+	transition: 1s;
+}
+.middle_content:hover .redirect{
+	display: hidden;
+	transition: 1s;
+}
+
+.go_away{
+	opacity: 0;
+	color: white;
+}
+
+.diable img{
+	width: 40%;
+	opacity: 0;
+}
+
+#last_content{
+	background-color: white;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	bottom: 0;
+	width: 100%;
+	align-items: center;
+	padding: 2vh 0;
+}
+
+.link{
+	width: 30vw;
+}
+
+.link ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+	margin-right: 10%;
+}
+
+.link a{
+	text-decoration: none;
+	color: black;
+}
+
+.link a:hover{
+	color: gray;
+}
+
+.network{
+	display: flex;
+	width: 12vw;
+}
+
+.network img{
+	max-width: 80%;
+	border-radius: 10px;
+}
+
+.network img:hover{
+	opacity: 0.8;
+}
